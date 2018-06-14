@@ -1,0 +1,368 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/pattern_page_toolbar"
+        layout="@layout/app_bar_layout"
+        android:layout_margin="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="8dp"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="8dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="22sp"
+                        android:layout_gravity="center"
+                        android:textColor="@color/colorPrimary"
+                        android:fontFamily="@font/josefinsans_semibold"
+                        android:layout_marginBottom="4dp"
+                        android:text="Examples"
+                        />
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginBottom="8dp"
+                        android:background="@color/colorPrimary"/>
+
+                    <LinearLayout
+                        android:id="@+id/patterns_exp1_layout"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="4dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="18sp"
+                            android:fontFamily="@font/josefinsans_bold"
+                            android:text="1."
+                            android:textColor="@color/txtColor3"
+                            android:paddingRight="4dp"
+                            />
+
+                        <TextView
+                            android:id="@+id/patterns_exp1_txt"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="18sp"
+                            android:textColor="@color/txtColor3"
+                            android:fontFamily="@font/josefinsans_bold"
+                            android:text="Example 1"
+                            />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/patterns_exp2_layout"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="4dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="18sp"
+                            android:fontFamily="@font/josefinsans_bold"
+                            android:text="2."
+                            android:textColor="@color/txtColor3"
+                            android:paddingRight="4dp"
+                            />
+
+                        <TextView
+                            android:id="@+id/patterns_exp2_txt"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="18sp"
+                            android:textColor="@color/txtColor3"
+                            android:fontFamily="@font/josefinsans_bold"
+                            android:text="Example 2"
+                            />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/patterns_exp3_layout"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="4dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="18sp"
+                            android:fontFamily="@font/josefinsans_bold"
+                            android:text="3."
+                            android:textColor="@color/txtColor3"
+                            android:paddingRight="4dp"
+                            />
+
+                        <TextView
+                            android:id="@+id/patterns_exp3_txt"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="18sp"
+                            android:textColor="@color/txtColor3"
+                            android:fontFamily="@font/josefinsans_bold"
+                            android:text="Example 3"
+                            />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/patterns_exp4_layout"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="4dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="18sp"
+                            android:fontFamily="@font/josefinsans_bold"
+                            android:text="4."
+                            android:textColor="@color/txtColor3"
+                            android:paddingRight="4dp"
+                            />
+
+                        <TextView
+                            android:id="@+id/patterns_exp4_txt"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="18sp"
+                            android:textColor="@color/txtColor3"
+                            android:fontFamily="@font/josefinsans_bold"
+                            android:text="Example 4"
+                            />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/patterns_exp5_layout"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="4dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="18sp"
+                            android:textColor="@color/txtColor3"
+                            android:fontFamily="@font/josefinsans_bold"
+                            android:text="5."
+                            android:paddingRight="4dp"
+                            />
+
+                        <TextView
+                            android:id="@+id/patterns_exp5_txt"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="18sp"
+                            android:textColor="@color/txtColor3"
+                            android:fontFamily="@font/josefinsans_bold"
+                            android:text="Example 5"
+                            />
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="22sp"
+                        android:layout_gravity="center"
+                        android:textColor="@color/colorPrimary"
+                        android:fontFamily="@font/josefinsans_semibold"
+                        android:layout_marginBottom="4dp"
+                        android:layout_marginTop="16dp"
+                        android:text="Dialogues"
+                        />
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginBottom="8dp"
+                        android:background="@color/colorPrimary"/>
+
+
+
+                            <TextView
+                                android:id="@+id/patterns_dia1_txt"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="18sp"
+                                android:textColor="@color/txtColor1"
+                                android:fontFamily="@font/josefinsans_bold"
+                                android:text="Dialogue 1"
+                                android:layout_marginBottom="8dp"
+                                />
+
+
+
+                            <TextView
+                                android:id="@+id/patterns_dia2_txt"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="18sp"
+                                android:textColor="@color/txtColor2"
+                                android:fontFamily="@font/josefinsans_bold"
+                                android:text="Dialogue 2"
+                                android:layout_marginBottom="4dp"
+                                />
+
+                    <View
+                        android:id="@+id/pattern_view1"
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginRight="16dp"
+                        android:layout_marginBottom="4dp"
+                        android:background="@color/colorAccent"/>
+
+
+
+
+                            <TextView
+                                android:id="@+id/patterns_dia3_txt"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="18sp"
+                                android:textColor="@color/txtColor1"
+                                android:fontFamily="@font/josefinsans_bold"
+                                android:text="Dialogue 3"
+                                android:layout_marginBottom="8dp"
+                                />
+
+
+
+
+                            <TextView
+                                android:id="@+id/patterns_dia4_txt"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="18sp"
+                                android:textColor="@color/txtColor2"
+                                android:fontFamily="@font/josefinsans_bold"
+                                android:text="Dialogue 4"
+                                android:layout_marginBottom="4dp"
+                                />
+
+                    <View
+                        android:id="@+id/pattern_view2"
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginRight="16dp"
+                        android:layout_marginBottom="4dp"
+                        android:background="@color/colorAccent"/>
+
+
+
+
+                            <TextView
+                                android:id="@+id/patterns_dia5_txt"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="18sp"
+                                android:textColor="@color/txtColor1"
+                                android:fontFamily="@font/josefinsans_bold"
+                                android:text="Dialogue 5"
+                                android:layout_marginBottom="8dp"
+                                />
+
+
+
+
+                            <TextView
+                                android:id="@+id/patterns_dia6_txt"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="18sp"
+                                android:textColor="@color/txtColor2"
+                                android:fontFamily="@font/josefinsans_bold"
+                                android:text="Dialogue 6"
+                                android:layout_marginBottom="4dp"
+                                />
+
+                    <View
+                        android:id="@+id/pattern_view3"
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginRight="16dp"
+                        android:layout_marginBottom="4dp"
+                        android:background="@color/colorAccent"/>
+
+
+
+
+                            <TextView
+                                android:id="@+id/patterns_dia7_txt"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="18sp"
+                                android:textColor="@color/txtColor1"
+                                android:fontFamily="@font/josefinsans_bold"
+                                android:text="Dialogue 7"
+                                android:layout_marginBottom="8dp"
+                                />
+
+
+
+
+                            <TextView
+                                android:id="@+id/patterns_dia8_txt"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="18sp"
+                                android:textColor="@color/txtColor2"
+                                android:fontFamily="@font/josefinsans_bold"
+                                android:text="Dialogue 8"
+                                android:layout_marginBottom="4dp"
+                                />
+
+                    <View
+                        android:id="@+id/pattern_view4"
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginRight="16dp"
+                        android:layout_marginBottom="4dp"
+                        android:background="@color/colorAccent"/>
+
+
+                    </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
